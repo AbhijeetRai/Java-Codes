@@ -1,9 +1,9 @@
 class Demo {
 
 	//it is not possible to write nested static blocks and instance blocks within some function
-	static {
+	/*static*/ {
 		System.out.println("PM");
-		/*static*/ {
+		 {
 
 			System.out.println("Demonetisation");
 			{
@@ -15,7 +15,7 @@ class Demo {
 
 	public static void main(String[] args) {
 
-		static {
+		 static {
 			System.out.println("PM...");
 			{
 

@@ -1,14 +1,19 @@
 //constructor has less priority than instance block
 
 class Demo {
-	
+
 	{
-		
+
+		System.out.println("Block-3");
+	}
+
+	{
+
 		System.out.println("Block-1");
 	}
 
 	Demo() {
-		
+
 		System.out.println("In constructor");
 	}
 
@@ -17,7 +22,7 @@ class Demo {
 	}
 
 	public static void main(String[] args) {
-		
+
 		new Demo();
 	}
 }
