@@ -3,6 +3,6 @@ interface Covid {
 	void showStats();
 }
 
-abstract class Demo implements Covid {
+class Demo implements Covid {
 
 }

@@ -11,6 +11,6 @@ class Demo {
         public static void main(String[] args) {
 
                 //Error while calling
-                //new Demo(10, 10);
+                new Demo(10, 10);
         }
 }

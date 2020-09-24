@@ -15,5 +15,6 @@ class Demo {
 		MyThread mt = new MyThread();
 		Thread t = new Thread(mt);
 		t.start();
+		System.out.println("Name " + t.getName());
 	}
 }

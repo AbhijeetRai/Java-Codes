@@ -14,5 +14,6 @@ class Demo {
 
                 Thread t = new Thread(r);
                 t.start();
+		System.out.println("Name " + t.getName());
         }
 }
