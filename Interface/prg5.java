@@ -9,7 +9,8 @@ class Demo {
 
         public static void main(String[] args) {
 
-                //By default variables of an interface are static
+                //By default variables of an interface are static and final
+		//Covid.cases = 1;
                 System.out.println(Covid.cases);
         }
 }

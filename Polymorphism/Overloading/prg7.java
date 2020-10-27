@@ -12,9 +12,9 @@ class Custom1 {
 
         }
 
-        /*void fun(int a, int b) {
+        void fun(int ai, int bi) {
 
-        }*/
+        }
 }
 
 /**

@@ -2,7 +2,7 @@ class Demo {
 
 	static void fun(float a, int b) {
 
-        System.out.println("Floats are " + a + b);
+        System.out.println("Floats are " + a + " " + b);
     }
 
     static void fun(int a, float b) {
@@ -11,8 +11,12 @@ class Demo {
     }
 
 	public static void main(String[] args) {
-		
-		fun(10, 10);
-		fun('A', 'B');
+        
+        fun(10, 10.1f);
+        fun(10.1f, 10);
+
+        //Ambiguous call
+		//fun(10, 10);
+		//fun('A', 'B');
 	}
 }

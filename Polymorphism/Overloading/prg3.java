@@ -14,6 +14,6 @@ class Demo {
 
         public static void main(String[] args) {
 
-                fun("Paris", "Milan");
+                //fun("Paris", "Milan");
         }
 }

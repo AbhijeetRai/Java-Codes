@@ -4,7 +4,7 @@ abstract class Parent {
 
         static void showA() {
 
-                System.out.println(a);
+                System.out.println("Showing " + a);
         }
 }
 
@@ -16,6 +16,7 @@ class Demo {
 
         public static void main(String[] args) {
 
+                System.out.println(new Child().a);
                 new Child().showA();
         }
 }
