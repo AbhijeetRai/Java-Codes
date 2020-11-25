@@ -1,6 +1,6 @@
 class Demo {
 
-	static void fun(float a, int b) {
+    static void fun(float a, int b) {
 
         System.out.println("Floats are " + a + " " + b);
     }
@@ -11,7 +11,7 @@ class Demo {
     }
 
 	public static void main(String[] args) {
-        
+
         fun(10, 10.1f);
         fun(10.1f, 10);
 

@@ -1,10 +1,10 @@
 interface Punjab {
-	
+
 	void capital();
 }
 
 interface Haryana {
-	
+
 	void capital();
 }
 

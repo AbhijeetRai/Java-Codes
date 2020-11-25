@@ -23,10 +23,15 @@ class Demo {
 	
 	public static void main(String[] args) {
 		
-		Child.age();
-		System.out.println(Child.b);
+		Child object = new Child();
 
-		new Child().detail();
-		System.out.println(new Child().a);
+		System.out.println(object.a);
+		System.out.println(object.b);
+
+		object.detail();
+		object.age();
+
+		System.out.println(Child.b);
+		Child.age();
 	}
 }

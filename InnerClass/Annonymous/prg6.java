@@ -23,7 +23,8 @@ interface Parent3 {
 }
 
 /**
- * We can have parametrised annonymous inner class, as long as parent is not an inteface
+ * As soon as object of annonymous inner class is made, constructor of parent is called (constructor of abstract class and class)
+ * The constructor can be default or parametrised. Constructor of an interface does not exist
  */
 
 class Demo {

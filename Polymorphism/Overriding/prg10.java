@@ -8,8 +8,7 @@ class Parent {
 
 /**
  * Suppose child is overriding parent's 'Object detail()' method, then while overriding
- * Child can give, 'Child of,   "return type - of Object detail()"   method, of parent class'
- * as return type, of overriding method in Child class.
+ * Child can give, subclass of 'Object', inside overiding method of child, as return type.
  */
 
 

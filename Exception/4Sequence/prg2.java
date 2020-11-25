@@ -2,7 +2,7 @@ class Demo {
 
 	static void fun() {
 
-		System.out.println(10 / 0);
+		int a = 10 / 0;
 		//No handling code for exception, terminate this method abnormally and go to caller of fun
 		System.out.println("In fun");
 	}

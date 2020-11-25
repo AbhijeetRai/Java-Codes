@@ -19,6 +19,8 @@ class Child extends Parent {
 
 	void details() {
 		
+		int age = 58;
+
 		System.out.println(super.age);
 		super.printName();
 

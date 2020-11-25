@@ -1,5 +1,7 @@
 interface Krishna {
 
+        int a = 10;
+
         default void teachings() {
 
                 System.out.println("Karm karo");
@@ -23,5 +25,6 @@ class Demo {
         public static void main(String[] args) {
 
                 new Abhimanyu().teachings();
+                System.out.println(new Abhimanyu().a);
         }
 }

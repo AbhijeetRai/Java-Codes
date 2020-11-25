@@ -1,12 +1,12 @@
 class Demo {
-	
+
 	static void fun() {
-			
+
 		try {
 
 			System.out.println(10 / 0);
 		}catch(ArithmeticException e) {
-			
+
 			System.out.println(e.toString());
 		}
 
@@ -15,14 +15,14 @@ class Demo {
 	}
 
 	static void gun() {
-		
+
 		fun();
 		System.out.println("In gun");
 	}
 
 	public static void main(String[] args) {
-		
-		gun();	
+
+		gun();
 		System.out.println("In main");
 	}
 }

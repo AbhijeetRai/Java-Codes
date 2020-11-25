@@ -9,12 +9,13 @@ class Demo {
                 while(count >= 1) {
 
                         count--;
-                        main(new String[] {"Demo"});
+                        main(new String[] {});
                 }
         }
 
         public static void main(String[] args) {
 
+                System.out.println("In main");
                 fun();
         }
 }

@@ -20,5 +20,5 @@ Constructor of normal inner class is always parametrised
 
 
 Tip-
-To see the bytecode of nested class in (say)prg1.java, use 'Water$Tab_Button'
+To see the bytecode of nested class in prg1.java, use 'Water$Tab_Button'
 or ' Water\$Fish.class'. 

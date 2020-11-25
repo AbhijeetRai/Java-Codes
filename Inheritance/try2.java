@@ -1,12 +1,13 @@
-class Demo {
+class Louvre {
 
-        Demo() {
+        Louvre() {
 
-                this(10);
+                this("Louvre");
         }
 
-        Demo(int a) {
+        Louvre(String name) {
 
-                this(); //recursion in Constructor is not allowed in java
+                this();
         }
+        //Recursion is allowed everywhere else in Java, except constructor
 }

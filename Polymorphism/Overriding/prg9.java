@@ -8,7 +8,7 @@ class Demo {
         }
 
         //above method works only if, mentioned return type and actual returned value are parent child
-        //not sibling classes, or Child is declared and parent is being returned
+        //not sibling classes. Nor, Child is declared and parent is being returned
         /*String gun() {
 
                 return new StringBuffer();

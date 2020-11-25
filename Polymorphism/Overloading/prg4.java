@@ -10,9 +10,7 @@ class Demo {
 
         static void fun(Object o, String s) {
 
-                System.out.println(o);
-                System.out.println(s);
-		System.out.println();
+                System.out.println(o + " " + s + "\n");
         }
 
         public static void main(String[] args) {
