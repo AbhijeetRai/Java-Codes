@@ -21,6 +21,9 @@ class Demo implements Covid {
 
 	public static void main(String[] args) {
 
+		//object of interace cannot be created
+		//new Covid();
+
 		new Demo().aatmNirbharBanie();
 	}
 }

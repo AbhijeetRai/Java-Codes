@@ -16,6 +16,9 @@ class Demo {
 
         public static void main(String[] args) {
 
+                //object of abstract class cannot be created
+                //Parent p = new Parent();
+
                 System.out.println(new Child().a);
                 new Child().showA();
         }

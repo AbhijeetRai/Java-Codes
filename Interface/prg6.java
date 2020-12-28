@@ -1,5 +1,5 @@
 interface Covid {
-	
+
 	void showStats();
 }
 

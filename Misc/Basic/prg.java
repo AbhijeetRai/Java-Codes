@@ -6,7 +6,7 @@ class Demo {
 
         static {
 
-                static String s;
+                //static String s;
         }
 
         public static void main(String[] args) {

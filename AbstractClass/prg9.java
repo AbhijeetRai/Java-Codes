@@ -17,7 +17,7 @@ class Child extends Parent {
 class Demo {
 
     public static void main(String[] args) {
-        
+
         Parent p = new Child();
         p.fun();
     }
