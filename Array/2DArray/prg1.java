@@ -10,12 +10,17 @@ class Demo {
 
                 int[][] arr5 = new int[2][2];
 
+                int[][] arr6 = new int[2][2];
+
+                arr6[0] = new int[]{1, 2};      //new int[] compulsory
+                arr6[1] = new int[]{3, 4};
+
                 //Cannot give both dimension and initializer
-                //int[][] arr6 = new int[2][2]{1, 2, 3};
+                //int[][] arr7 = new int[2][2]{1, 2, 3};
 
                 //Do not give initializer at compile time.
-                //int[2][2] arr7;
+                //int[2][2] arr8;
 
-                //int arr8[2][2] = {1, 2, 3, 4};
+                //int arr9[2][2] = {1, 2, 3, 4};
         }
 }
